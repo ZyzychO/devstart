@@ -24,9 +24,9 @@ export function Catalog() {
         {loadingRbac ? <LoadingAnimation size={20} /> : null}
       </Flex>
       <FlexSection justifyContent="space-around" flexWrap="wrap">
-        {apis.map(api => (
+        {apis.map((api, i) => (
           <WideTile to={api.link} header={api.title || api.link}>
-            Tags: {api.defaultVersion.metadata?.tags.map(tag => <span> {tag} </span>)}
+            Tags: {api.versions.map(data => <span> {data.summary} </span>)}
           </WideTile>
         ))}
       </FlexSection>
