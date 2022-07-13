@@ -3,4 +3,4 @@ apiCatalog:
   - title: ACME
     disableAutoSidebar: true
     versions:
-      - link: https://api.redocly.com/registry/bundle/testing_oleksandr-wsu/sample/v12/openapi.yaml?branch=main
+      - link: https://api.redocly.com/registry/assets/testing_oleksandr-wsu/sample/v12/openapi
